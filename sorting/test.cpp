@@ -11,6 +11,7 @@ vector<vector<int>> testArrays = {
     {{2,1}},
     {{3,2,1}},
     {{3,4,2,2,5,1,3,5,6,4}},
+    {{5,4,1}},
 };
 
 vector<vector<int>> correctArrays = {
@@ -21,6 +22,7 @@ vector<vector<int>> correctArrays = {
     {{1,2}},
     {{1,2,3}},
     {{1,2,2,3,3,4,4,5,5,6}},
+    {{1,4,5}},
 };
  
 void test(const std::function<void(vector<int>&)> &sort){
